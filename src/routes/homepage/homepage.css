@@ -2,8 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Full viewport height */
-    background: linear-gradient(135deg, #e8f0fe, #d0e7ff); /* Subtle gradient to align with brand aesthetic */
+    height: 100vh;
+    background: linear-gradient(135deg, #e8f0fe, #d0e7ff); 
   }
   
   .intro-section {
@@ -15,7 +15,7 @@
   .intro-section h1 {
     font-size: 3rem;
     font-weight: bold;
-    color: #0056d6; /* Brand blue color */
+    color: #0056d6; 
     margin-bottom: 20px;
   }
   
@@ -52,6 +52,6 @@
   }
   
   .btn:hover {
-    transform: scale(1.05); /* Slight zoom on hover for interactivity */
+    transform: scale(1.05); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
