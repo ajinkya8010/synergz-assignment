@@ -1,5 +1,6 @@
 import React from 'react'
 import './homepage.css'
+import { NavLink } from 'react-router-dom';
 
 const HomePage = () => {
     return (
@@ -11,8 +12,8 @@ const HomePage = () => {
               talent, and delivering customized client solutions.
             </p>
             <div className="cta-buttons">
-              <a href="/ourwork" className="btn btn-primary">View Our Work</a>
-              <a href="/contactus" className="btn btn-secondary">Join Us</a>
+              <NavLink to="/ourwork" className="btn btn-primary">View Our Work</NavLink>
+              <NavLink to="/contactus" className="btn btn-secondary">Join us</NavLink>
             </div>
           </div>
         </div>
