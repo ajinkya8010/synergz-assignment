@@ -1,0 +1,107 @@
+/* Main container for the Our Work page */
+.our-work {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.6s ease forwards;
+    animation-delay: 0.2s;
+  }
+  
+  .our-work h1 {
+    font-size: 2.5rem;
+    color: #0072b1;
+    margin-bottom: 10px;
+  }
+  
+  .intro {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+    max-width: 700px;
+    line-height: 1.6;
+  }
+  
+  /* Container for the project cards */
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1200px;
+  }
+  
+  /* Individual project card */
+  .project-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.6s ease forwards;
+    animation-delay: 0.4s;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-15px); 
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+  .project-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+  }
+  
+  /* Project title */
+  .project-card h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Project description */
+  .description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  /* Tech stack styling */
+  .tech-stack {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  /* Keyframes for fade-in animation */
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive styling for smaller screens */
+  @media (max-width: 768px) {
+    .project-card {
+      max-width: 100%;
+    }
+    .our-work h1 {
+      font-size: 2rem;
+    }
+    .intro {
+      font-size: 1rem;
+    }
+  }
+  
