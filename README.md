@@ -1,8 +1,45 @@
-# React + Vite
+# Project Name
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Prerequisites
+- Node.js (version 18.0 or later)
+- npm (version 9.0 or later)
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 1. Clone the Repository
+```bash
+git clone <your-repository-url>
+cd <project-directory-name>
+```
+
+### 2. Install Dependencies
+```bash
+npm install
+```
+
+### 3. Run the Development Server
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:5173/`
+
+## Additional Scripts
+
+- `npm run build`: Create a production build
+- `npm run preview`: Preview the production build locally
+- `npm run lint`: Run ESLint to check for code quality issues
+
+## Troubleshooting
+
+- Ensure you have the correct Node.js version installed
+- If you encounter dependency issues, try deleting the `node_modules` folder and running `npm install` again
+- Check that your `.env` file (if used) is properly configured
+
+## Project Structure
+- `src/`: Source code directory
+- `public/`: Static assets
+- `vite.config.js`: Vite configuration file
+
+## Contributing
+Please read CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.
