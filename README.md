@@ -8,8 +8,8 @@
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repository-url>
-cd <project-directory-name>
+git clone https://github.com/ajinkya8010/synergz-assignment
+cd synergz-assignment
 ```
 
 ### 2. Install Dependencies
@@ -41,5 +41,3 @@ The application will be available at `http://localhost:5173/`
 - `public/`: Static assets
 - `vite.config.js`: Vite configuration file
 
-## Contributing
-Please read CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.
